@@ -89,9 +89,37 @@ NOTE: flask (REST API) is an external package that didn't come with Anaconda.
 
 27-nov-2020
 
+If in CLI, if something is not found, do: pip install <name>
 
+Create a folder (new -> folder) in jupyter notebook (in Chrome localhost:8080) and rename it.
 
+REPL => read execute print loop
 
+Python Basics:
+
+Python is a type inference lang. Variable data type depends on the value.
+
+Variables:
+
+a= 10
+​
+type(a)
+int
+
+b="Shubham"
+type(b)
+str
+
+c= 10.5
+type(c)
+float
+
+d= input ("Enter a number ")
+Enter a number 22
+d
+​
+'22'
+# Everything we pass to "input" is treated as a string 
 
 
 
