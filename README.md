@@ -101,30 +101,150 @@ Python is a type inference lang. Variable data type depends on the value.
 
 Variables:
 
+```
+print("Hello World")
+
+
+#shift + Enter to execute the notebook
+
+
+# Data Types
+
+
+## Number
+
+
+print (2+7)
+
+## Variables
+
+
 a= 10
-​
+
+a
+
+
 type(a)
-int
 
 b="Shubham"
+
 type(b)
-str
 
 c= 10.5
-type(c)
-float
 
-d= input ("Enter a number ")
-Enter a number 22
+type(c)
+
+d= input ("Enter a number")
+
 d
-​
-'22'
+
+
 # Everything we pass to "input" is treated as a string 
 
+name= input("Enter your name ")
+print("Welcome " +name+ " to the Full Stack Data Science Course")
+
+## String
+
+s= "Hello World"
+
+type(s)
+
+print("use \n to print a new line")
+
+dataType           Declare                     Access                  Methods
+********           ********                    *****                  ********
+string              ' ', " "                 [0] indexes  
+
+ s[1:6]
+
+s[2]
+
+#frm starting index starts from 0, from end index starts from -1.
+# single colon is a substring and double colon is a skip a sequence of elements
+
+s[-1]
+
+s[::]
+
+s[::1]
+
+s[::2]
+
+s[::3]
+
+s[::-1]
+
+s.upper()
+
+name= input("Enter your name: ")
+age = input("Enter your age: ")
+print("Your name is {} and your age is {}".format(name, age))
+
+name= input("Enter your name: ")
+age = input("Enter your age: ")
+print("Your name is {n} and your age is {a}".format(n=name, a=age))
+
+name= input("Enter your name: ")
+age = input("Enter your age: ")
+print("Your name is {n} and your age is {a}".format(a=age, n=name)) 
+#order doesn't matter after giving the placeholder
+
+#strings are immutables.
+s= "I'm a string"
+s[0]
+
+s[0] = 'p'
+
+## Lists
+
+#lists are collection of heterogeneous data. They are mutables.
+dataType           Declare                     Access                  Methods
+********           ********                    *****                  ********
+string              ' ', " "                 [0] indexes  
+
+List                  []                     [0] indexes         
+
+num = []
+
+type(num)
+
+num1 = [1,2,3,4,5, "Raju", "Ramesh"]
+
+type(num1)
+
+num1[0] = "Rajesh" 
+
+num1
+
+num1[:: -1] #reversal of list
+
+num1[:-1] 
+
+#press tab to see it's predefined methods and shift+tab to see it's signature
+
+num1.append("Shubham")
 
 
 
+num1
+
+num1.remove('Shubham')
+
+num1
+
+num1.reverse()
+
+num1
+
+### Nested lists
+
+std1 = ['Shubham', 24, 45]
+std2 = ['Saumya', 34, 54]
+std3 = ['Prakhar', 34, 43]
+
+list_of_student = [ std1, std2, std3 ]
 
 
 
-
+```
